@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    background-color: brown;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.apresentacao {
+    background-color: rgb(184, 191, 178);
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    margin: 10px;
+    max-width: 97%;
+}
+
+.apresentacao {
+    width: 100%;
+    height: auto; 
+}
+
+.img {
+    margin: 0%;
+    padding: 10%;
+    vertical-align: bottom;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.Momentos {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feitos {
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    position: relative;
+    float: left;
+    width: 33%;
+    border: 1px #1f1919 solid;
+}
+
+.textonaro1 {
+    padding-left: 2%;
+}
+
+.textonaro2 {
+    padding-left: 9%;
+    padding-right: 1%;
+}
+
+.textonaro3 {
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+.produtos {
+    background-color: rgb(158, 68, 68);;
+    width: 300;
+    height: 3%;
+    margin: 0;
+    display: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    background-color: #bab3b3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:280px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card-content p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #e60023; 
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
